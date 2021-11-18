@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: us.icr.io/<my_namespace>/hello-world:1
+        image: us.icr.io/sn-labs-mazo/hello-world:1
         ports:
         - containerPort: 8080
       imagePullSecrets:
